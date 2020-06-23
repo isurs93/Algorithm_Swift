@@ -9,4 +9,5 @@
 import Foundation
 
 print("Hello, World!")
+print("Github 연동 완료")
 
