@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		EDEEF1A024A1D681000C2438 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEEF19F24A1D681000C2438 /* main.swift */; };
+		EDEEF1AC24A33115000C2438 /* Blackjack.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEEF1AB24A33115000C2438 /* Blackjack.swift */; };
+		EDEEF1AE24A35060000C2438 /* SeperateSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEEF1AD24A35060000C2438 /* SeperateSum.swift */; };
+		EDEEF1B024A35BB9000C2438 /* BigSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEEF1AF24A35BB9000C2438 /* BigSize.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		EDEEF19C24A1D681000C2438 /* Algorithm_Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm_Swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDEEF19F24A1D681000C2438 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EDEEF1AB24A33115000C2438 /* Blackjack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blackjack.swift; sourceTree = "<group>"; };
+		EDEEF1AD24A35060000C2438 /* SeperateSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeperateSum.swift; sourceTree = "<group>"; };
+		EDEEF1AF24A35BB9000C2438 /* BigSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigSize.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,28 @@
 		EDEEF19E24A1D681000C2438 /* Algorithm_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				EDEEF1A924A3308F000C2438 /* Backjoon */,
 				EDEEF19F24A1D681000C2438 /* main.swift */,
 			);
 			path = Algorithm_Swift;
+			sourceTree = "<group>";
+		};
+		EDEEF1A924A3308F000C2438 /* Backjoon */ = {
+			isa = PBXGroup;
+			children = (
+				EDEEF1AA24A330A2000C2438 /* BruteForce */,
+			);
+			path = Backjoon;
+			sourceTree = "<group>";
+		};
+		EDEEF1AA24A330A2000C2438 /* BruteForce */ = {
+			isa = PBXGroup;
+			children = (
+				EDEEF1AB24A33115000C2438 /* Blackjack.swift */,
+				EDEEF1AD24A35060000C2438 /* SeperateSum.swift */,
+				EDEEF1AF24A35BB9000C2438 /* BigSize.swift */,
+			);
+			path = BruteForce;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDEEF1AE24A35060000C2438 /* SeperateSum.swift in Sources */,
+				EDEEF1B024A35BB9000C2438 /* BigSize.swift in Sources */,
+				EDEEF1AC24A33115000C2438 /* Blackjack.swift in Sources */,
 				EDEEF1A024A1D681000C2438 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

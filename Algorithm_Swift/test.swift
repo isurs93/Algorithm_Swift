@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  test.swift
 //  Algorithm_Swift
 //
 //  Created by 박성주 on 2020/06/23.
@@ -7,8 +7,4 @@
 //
 
 import Foundation
-
-//let test = Blackjack()
-let test = SeperateSum()
-test.Solution()
-
+print("in test.Swift")
