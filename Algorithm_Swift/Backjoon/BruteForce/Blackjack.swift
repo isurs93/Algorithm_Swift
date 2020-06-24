@@ -37,4 +37,30 @@ class Blackjack{
         if result == target { print(result) }
         else { print(nearResult) }
     }
+    
+    func otherSolution(){
+        let str = readLine()!.split(separator: " ").map{ Int($0)! }
+        let count = str[0]
+        let target = str[1]
+        
+        let receiveList = readLine()!.split(separator: " ").map{ Int($0)! }
+        var result = 0
+
+        for index1 in 0..<count-2 {
+            for index2 in index1+1..<count-1{
+                for index3 in index2+1..<count {
+                    let testResult = receiveList[index1] + receiveList[index2] + receiveList[index3]
+
+                    if testResult == target {
+                        result = testResult
+                        break;
+                    }
+                    else if target > testResult && testResult > result {
+                        result = testResult
+                    }
+                }
+            }
+        }
+        print(result)
+    }
 }

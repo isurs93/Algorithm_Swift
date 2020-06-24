@@ -10,5 +10,7 @@ import Foundation
 
 //let test = Blackjack()
 let test = SeperateSum()
+
 test.Solution()
+//test.otherSolution()
 
