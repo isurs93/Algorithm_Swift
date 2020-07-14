@@ -11,6 +11,12 @@
 		EDEEF1AC24A33115000C2438 /* Blackjack.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEEF1AB24A33115000C2438 /* Blackjack.swift */; };
 		EDEEF1AE24A35060000C2438 /* SeperateSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEEF1AD24A35060000C2438 /* SeperateSum.swift */; };
 		EDEEF1B024A35BB9000C2438 /* BigSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEEF1AF24A35BB9000C2438 /* BigSize.swift */; };
+		EDEEF1B324B32007000C2438 /* HighestNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEEF1B224B32007000C2438 /* HighestNumber.swift */; };
+		EDEEF1B624B597F6000C2438 /* BestNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEEF1B524B597F6000C2438 /* BestNumber.swift */; };
+		EDEEF1B924B5B4DA000C2438 /* numberSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEEF1B824B5B4DA000C2438 /* numberSort.swift */; };
+		EDEEF1BC24B5BB55000C2438 /* stack1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEEF1BB24B5BB55000C2438 /* stack1.swift */; };
+		EDEEF1BE24B7041E000C2438 /* stack2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEEF1BD24B7041E000C2438 /* stack2.swift */; };
+		EDEEF1C424BACC80000C2438 /* H_Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEEF1C324BACC80000C2438 /* H_Index.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +37,13 @@
 		EDEEF1AB24A33115000C2438 /* Blackjack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blackjack.swift; sourceTree = "<group>"; };
 		EDEEF1AD24A35060000C2438 /* SeperateSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeperateSum.swift; sourceTree = "<group>"; };
 		EDEEF1AF24A35BB9000C2438 /* BigSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigSize.swift; sourceTree = "<group>"; };
+		EDEEF1B224B32007000C2438 /* HighestNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighestNumber.swift; sourceTree = "<group>"; };
+		EDEEF1B524B597F6000C2438 /* BestNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestNumber.swift; sourceTree = "<group>"; };
+		EDEEF1B824B5B4DA000C2438 /* numberSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numberSort.swift; sourceTree = "<group>"; };
+		EDEEF1BB24B5BB55000C2438 /* stack1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stack1.swift; sourceTree = "<group>"; };
+		EDEEF1BD24B7041E000C2438 /* stack2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stack2.swift; sourceTree = "<group>"; };
+		EDEEF1C224B9EE39000C2438 /* test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = test.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		EDEEF1C324BACC80000C2438 /* H_Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H_Index.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +76,7 @@
 		EDEEF19E24A1D681000C2438 /* Algorithm_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				EDEEF1B124B31FF0000C2438 /* Programmers */,
 				EDEEF1A924A3308F000C2438 /* Backjoon */,
 				EDEEF19F24A1D681000C2438 /* main.swift */,
 			);
@@ -72,6 +86,7 @@
 		EDEEF1A924A3308F000C2438 /* Backjoon */ = {
 			isa = PBXGroup;
 			children = (
+				EDEEF1B724B5B4C5000C2438 /* Sort */,
 				EDEEF1AA24A330A2000C2438 /* BruteForce */,
 			);
 			path = Backjoon;
@@ -85,6 +100,51 @@
 				EDEEF1AF24A35BB9000C2438 /* BigSize.swift */,
 			);
 			path = BruteForce;
+			sourceTree = "<group>";
+		};
+		EDEEF1B124B31FF0000C2438 /* Programmers */ = {
+			isa = PBXGroup;
+			children = (
+				EDEEF1BF24B9B34A000C2438 /* skillCheck */,
+				EDEEF1BA24B5BB41000C2438 /* stack_queue */,
+				EDEEF1B424B3200B000C2438 /* Sort */,
+			);
+			path = Programmers;
+			sourceTree = "<group>";
+		};
+		EDEEF1B424B3200B000C2438 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				EDEEF1B224B32007000C2438 /* HighestNumber.swift */,
+				EDEEF1B524B597F6000C2438 /* BestNumber.swift */,
+				EDEEF1C324BACC80000C2438 /* H_Index.swift */,
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
+		EDEEF1B724B5B4C5000C2438 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				EDEEF1B824B5B4DA000C2438 /* numberSort.swift */,
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
+		EDEEF1BA24B5BB41000C2438 /* stack_queue */ = {
+			isa = PBXGroup;
+			children = (
+				EDEEF1BB24B5BB55000C2438 /* stack1.swift */,
+				EDEEF1BD24B7041E000C2438 /* stack2.swift */,
+			);
+			path = stack_queue;
+			sourceTree = "<group>";
+		};
+		EDEEF1BF24B9B34A000C2438 /* skillCheck */ = {
+			isa = PBXGroup;
+			children = (
+				EDEEF1C224B9EE39000C2438 /* test.playground */,
+			);
+			path = skillCheck;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +208,13 @@
 				EDEEF1AE24A35060000C2438 /* SeperateSum.swift in Sources */,
 				EDEEF1B024A35BB9000C2438 /* BigSize.swift in Sources */,
 				EDEEF1AC24A33115000C2438 /* Blackjack.swift in Sources */,
+				EDEEF1B324B32007000C2438 /* HighestNumber.swift in Sources */,
+				EDEEF1B624B597F6000C2438 /* BestNumber.swift in Sources */,
 				EDEEF1A024A1D681000C2438 /* main.swift in Sources */,
+				EDEEF1BC24B5BB55000C2438 /* stack1.swift in Sources */,
+				EDEEF1BE24B7041E000C2438 /* stack2.swift in Sources */,
+				EDEEF1B924B5B4DA000C2438 /* numberSort.swift in Sources */,
+				EDEEF1C424BACC80000C2438 /* H_Index.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
