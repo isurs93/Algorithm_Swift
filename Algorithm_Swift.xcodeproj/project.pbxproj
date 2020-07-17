@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED92BA5824BEEFE300899A60 /* disguise.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED92BA5724BEEFE300899A60 /* disguise.swift */; };
+		ED994DD624C03BAB004376A7 /* moveToFront.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED994DD524C03BAB004376A7 /* moveToFront.swift */; };
+		ED994DD924C17263004376A7 /* fibonacci_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED994DD824C17263004376A7 /* fibonacci_2.swift */; };
+		ED994DDB24C1795F004376A7 /* fibonacci_2_other.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED994DDA24C1795F004376A7 /* fibonacci_2_other.swift */; };
+		ED994DDD24C18226004376A7 /* fibonacci_2_other2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED994DDC24C18226004376A7 /* fibonacci_2_other2.swift */; };
+		ED994DDF24C18B4C004376A7 /* fibonacci_func.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED994DDE24C18B4C004376A7 /* fibonacci_func.swift */; };
 		EDEEF1A024A1D681000C2438 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEEF19F24A1D681000C2438 /* main.swift */; };
 		EDEEF1AC24A33115000C2438 /* Blackjack.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEEF1AB24A33115000C2438 /* Blackjack.swift */; };
 		EDEEF1AE24A35060000C2438 /* SeperateSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEEF1AD24A35060000C2438 /* SeperateSum.swift */; };
@@ -32,6 +38,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		ED92BA5724BEEFE300899A60 /* disguise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = disguise.swift; sourceTree = "<group>"; };
+		ED994DD524C03BAB004376A7 /* moveToFront.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moveToFront.swift; sourceTree = "<group>"; };
+		ED994DD824C17263004376A7 /* fibonacci_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fibonacci_2.swift; sourceTree = "<group>"; };
+		ED994DDA24C1795F004376A7 /* fibonacci_2_other.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fibonacci_2_other.swift; sourceTree = "<group>"; };
+		ED994DDC24C18226004376A7 /* fibonacci_2_other2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fibonacci_2_other2.swift; sourceTree = "<group>"; };
+		ED994DDE24C18B4C004376A7 /* fibonacci_func.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fibonacci_func.swift; sourceTree = "<group>"; };
 		EDEEF19C24A1D681000C2438 /* Algorithm_Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm_Swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDEEF19F24A1D681000C2438 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EDEEF1AB24A33115000C2438 /* Blackjack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blackjack.swift; sourceTree = "<group>"; };
@@ -42,7 +54,6 @@
 		EDEEF1B824B5B4DA000C2438 /* numberSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numberSort.swift; sourceTree = "<group>"; };
 		EDEEF1BB24B5BB55000C2438 /* stack1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stack1.swift; sourceTree = "<group>"; };
 		EDEEF1BD24B7041E000C2438 /* stack2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stack2.swift; sourceTree = "<group>"; };
-		EDEEF1C224B9EE39000C2438 /* test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = test.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		EDEEF1C324BACC80000C2438 /* H_Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H_Index.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,6 +68,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED92BA5624BEEFB900899A60 /* Hash */ = {
+			isa = PBXGroup;
+			children = (
+				ED92BA5724BEEFE300899A60 /* disguise.swift */,
+			);
+			path = Hash;
+			sourceTree = "<group>";
+		};
+		ED994DD324C03AC5004376A7 /* Algorithm_Book */ = {
+			isa = PBXGroup;
+			children = (
+				ED994DD424C03AFD004376A7 /* search_Algorithm */,
+			);
+			path = Algorithm_Book;
+			sourceTree = "<group>";
+		};
+		ED994DD424C03AFD004376A7 /* search_Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				ED994DD524C03BAB004376A7 /* moveToFront.swift */,
+			);
+			path = search_Algorithm;
+			sourceTree = "<group>";
+		};
+		ED994DD724C17230004376A7 /* Dydamic */ = {
+			isa = PBXGroup;
+			children = (
+				ED994DD824C17263004376A7 /* fibonacci_2.swift */,
+				ED994DDA24C1795F004376A7 /* fibonacci_2_other.swift */,
+				ED994DDC24C18226004376A7 /* fibonacci_2_other2.swift */,
+				ED994DDE24C18B4C004376A7 /* fibonacci_func.swift */,
+			);
+			path = Dydamic;
+			sourceTree = "<group>";
+		};
 		EDEEF19324A1D681000C2438 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +122,7 @@
 		EDEEF19E24A1D681000C2438 /* Algorithm_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				ED994DD324C03AC5004376A7 /* Algorithm_Book */,
 				EDEEF1B124B31FF0000C2438 /* Programmers */,
 				EDEEF1A924A3308F000C2438 /* Backjoon */,
 				EDEEF19F24A1D681000C2438 /* main.swift */,
@@ -86,6 +133,7 @@
 		EDEEF1A924A3308F000C2438 /* Backjoon */ = {
 			isa = PBXGroup;
 			children = (
+				ED994DD724C17230004376A7 /* Dydamic */,
 				EDEEF1B724B5B4C5000C2438 /* Sort */,
 				EDEEF1AA24A330A2000C2438 /* BruteForce */,
 			);
@@ -105,7 +153,7 @@
 		EDEEF1B124B31FF0000C2438 /* Programmers */ = {
 			isa = PBXGroup;
 			children = (
-				EDEEF1BF24B9B34A000C2438 /* skillCheck */,
+				ED92BA5624BEEFB900899A60 /* Hash */,
 				EDEEF1BA24B5BB41000C2438 /* stack_queue */,
 				EDEEF1B424B3200B000C2438 /* Sort */,
 			);
@@ -137,14 +185,6 @@
 				EDEEF1BD24B7041E000C2438 /* stack2.swift */,
 			);
 			path = stack_queue;
-			sourceTree = "<group>";
-		};
-		EDEEF1BF24B9B34A000C2438 /* skillCheck */ = {
-			isa = PBXGroup;
-			children = (
-				EDEEF1C224B9EE39000C2438 /* test.playground */,
-			);
-			path = skillCheck;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,15 +246,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDEEF1AE24A35060000C2438 /* SeperateSum.swift in Sources */,
+				ED92BA5824BEEFE300899A60 /* disguise.swift in Sources */,
 				EDEEF1B024A35BB9000C2438 /* BigSize.swift in Sources */,
 				EDEEF1AC24A33115000C2438 /* Blackjack.swift in Sources */,
+				ED994DDB24C1795F004376A7 /* fibonacci_2_other.swift in Sources */,
 				EDEEF1B324B32007000C2438 /* HighestNumber.swift in Sources */,
 				EDEEF1B624B597F6000C2438 /* BestNumber.swift in Sources */,
 				EDEEF1A024A1D681000C2438 /* main.swift in Sources */,
+				ED994DDF24C18B4C004376A7 /* fibonacci_func.swift in Sources */,
 				EDEEF1BC24B5BB55000C2438 /* stack1.swift in Sources */,
 				EDEEF1BE24B7041E000C2438 /* stack2.swift in Sources */,
 				EDEEF1B924B5B4DA000C2438 /* numberSort.swift in Sources */,
+				ED994DD924C17263004376A7 /* fibonacci_2.swift in Sources */,
+				ED994DDD24C18226004376A7 /* fibonacci_2_other2.swift in Sources */,
 				EDEEF1C424BACC80000C2438 /* H_Index.swift in Sources */,
+				ED994DD624C03BAB004376A7 /* moveToFront.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
