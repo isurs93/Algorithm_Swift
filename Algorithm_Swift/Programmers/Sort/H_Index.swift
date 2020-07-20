@@ -10,10 +10,26 @@ import Foundation
 
 class H_Index{
     func solution(_ citations:[Int]) -> Int {
-        print(citations.max()!)
-        print(citations.firstIndex(of: citations.max()!)!)
-        print(citations[citations.firstIndex(of: citations.max()!)!])
-        let result = citations.firstIndex(of: citations.max()!)!
+        
+        var result = 0
+        let dataList = citations.sorted()
+        var targetIndex: Int = dataList.count / 2
+        
+        while(true){
+            var under = 0
+            var over = 0
+            for data in dataList {
+                if data >= dataList[targetIndex] {
+                    under += 1
+                }
+                else {
+                    over += 1
+                }
+            }
+            
+            
+        }
+        
         return result
     }
 }

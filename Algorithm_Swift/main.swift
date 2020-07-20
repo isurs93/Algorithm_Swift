@@ -25,5 +25,32 @@ import Foundation
 //let fibo3 = fibonacci_2_other2()
 //fibo3.solution()
 
-let fiboFunc = fibonacci_func()
-fiboFunc.solution()
+//let fiboFunc = fibonacci_func()
+//fiboFunc.solution()
+
+//let hIndex = H_Index()
+//print(hIndex.solution([10, 8, 5, 4, 3]))
+//print(hIndex.solution([25, 8, 5, 3, 3]))
+//print(hIndex.solution([3, 0, 6, 1, 5]))
+//
+//print(hIndex.solution([0, 1]))
+
+let mock = mock_test()
+print(mock.solution([1, 2, 3, 4, 5]))
+print(mock.solution([1, 3, 2, 4, 2]))
+
+let mock_other = mock_test_other()
+print(mock_other.solution([1, 2, 3, 4, 5]))
+print(mock_other.solution([1, 3, 2, 4, 2]))
+
+//for index in 0..<5 {
+//    print(index%5)
+//}
+//
+//for index in 0..<8 {
+//    print(index%8)
+//}
+//
+//for index in 0..<11 {
+//    print(index%11)
+//}

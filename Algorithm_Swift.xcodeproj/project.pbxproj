@@ -13,6 +13,8 @@
 		ED994DDB24C1795F004376A7 /* fibonacci_2_other.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED994DDA24C1795F004376A7 /* fibonacci_2_other.swift */; };
 		ED994DDD24C18226004376A7 /* fibonacci_2_other2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED994DDC24C18226004376A7 /* fibonacci_2_other2.swift */; };
 		ED994DDF24C18B4C004376A7 /* fibonacci_func.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED994DDE24C18B4C004376A7 /* fibonacci_func.swift */; };
+		ED994DE324C593B9004376A7 /* mock_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED994DE224C593B9004376A7 /* mock_test.swift */; };
+		ED994DE524C59F1A004376A7 /* mock_test_other.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED994DE424C59F1A004376A7 /* mock_test_other.swift */; };
 		EDEEF1A024A1D681000C2438 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEEF19F24A1D681000C2438 /* main.swift */; };
 		EDEEF1AC24A33115000C2438 /* Blackjack.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEEF1AB24A33115000C2438 /* Blackjack.swift */; };
 		EDEEF1AE24A35060000C2438 /* SeperateSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEEF1AD24A35060000C2438 /* SeperateSum.swift */; };
@@ -44,6 +46,8 @@
 		ED994DDA24C1795F004376A7 /* fibonacci_2_other.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fibonacci_2_other.swift; sourceTree = "<group>"; };
 		ED994DDC24C18226004376A7 /* fibonacci_2_other2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fibonacci_2_other2.swift; sourceTree = "<group>"; };
 		ED994DDE24C18B4C004376A7 /* fibonacci_func.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fibonacci_func.swift; sourceTree = "<group>"; };
+		ED994DE224C593B9004376A7 /* mock_test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mock_test.swift; sourceTree = "<group>"; };
+		ED994DE424C59F1A004376A7 /* mock_test_other.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mock_test_other.swift; sourceTree = "<group>"; };
 		EDEEF19C24A1D681000C2438 /* Algorithm_Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm_Swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDEEF19F24A1D681000C2438 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EDEEF1AB24A33115000C2438 /* Blackjack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blackjack.swift; sourceTree = "<group>"; };
@@ -103,6 +107,15 @@
 			path = Dydamic;
 			sourceTree = "<group>";
 		};
+		ED994DE124C5937A004376A7 /* BruteForce_Search */ = {
+			isa = PBXGroup;
+			children = (
+				ED994DE224C593B9004376A7 /* mock_test.swift */,
+				ED994DE424C59F1A004376A7 /* mock_test_other.swift */,
+			);
+			path = BruteForce_Search;
+			sourceTree = "<group>";
+		};
 		EDEEF19324A1D681000C2438 = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +166,7 @@
 		EDEEF1B124B31FF0000C2438 /* Programmers */ = {
 			isa = PBXGroup;
 			children = (
+				ED994DE124C5937A004376A7 /* BruteForce_Search */,
 				ED92BA5624BEEFB900899A60 /* Hash */,
 				EDEEF1BA24B5BB41000C2438 /* stack_queue */,
 				EDEEF1B424B3200B000C2438 /* Sort */,
@@ -247,6 +261,7 @@
 			files = (
 				EDEEF1AE24A35060000C2438 /* SeperateSum.swift in Sources */,
 				ED92BA5824BEEFE300899A60 /* disguise.swift in Sources */,
+				ED994DE524C59F1A004376A7 /* mock_test_other.swift in Sources */,
 				EDEEF1B024A35BB9000C2438 /* BigSize.swift in Sources */,
 				EDEEF1AC24A33115000C2438 /* Blackjack.swift in Sources */,
 				ED994DDB24C1795F004376A7 /* fibonacci_2_other.swift in Sources */,
@@ -258,6 +273,7 @@
 				EDEEF1BE24B7041E000C2438 /* stack2.swift in Sources */,
 				EDEEF1B924B5B4DA000C2438 /* numberSort.swift in Sources */,
 				ED994DD924C17263004376A7 /* fibonacci_2.swift in Sources */,
+				ED994DE324C593B9004376A7 /* mock_test.swift in Sources */,
 				ED994DDD24C18226004376A7 /* fibonacci_2_other2.swift in Sources */,
 				EDEEF1C424BACC80000C2438 /* H_Index.swift in Sources */,
 				ED994DD624C03BAB004376A7 /* moveToFront.swift in Sources */,
