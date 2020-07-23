@@ -16,7 +16,6 @@
 		ED994DE324C593B9004376A7 /* mock_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED994DE224C593B9004376A7 /* mock_test.swift */; };
 		ED994DE524C59F1A004376A7 /* mock_test_other.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED994DE424C59F1A004376A7 /* mock_test_other.swift */; };
 		ED994DE724C5AB6D004376A7 /* primeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED994DE624C5AB6D004376A7 /* primeNumber.swift */; };
-		ED994E1324C6EA63004376A7 /* KakaoInternShip_Winter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED994E1224C6EA63004376A7 /* KakaoInternShip_Winter.swift */; };
 		EDEEF1A024A1D681000C2438 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEEF19F24A1D681000C2438 /* main.swift */; };
 		EDEEF1AC24A33115000C2438 /* Blackjack.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEEF1AB24A33115000C2438 /* Blackjack.swift */; };
 		EDEEF1AE24A35060000C2438 /* SeperateSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEEF1AD24A35060000C2438 /* SeperateSum.swift */; };
@@ -51,8 +50,10 @@
 		ED994DE224C593B9004376A7 /* mock_test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mock_test.swift; sourceTree = "<group>"; };
 		ED994DE424C59F1A004376A7 /* mock_test_other.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mock_test_other.swift; sourceTree = "<group>"; };
 		ED994DE624C5AB6D004376A7 /* primeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = primeNumber.swift; sourceTree = "<group>"; };
-		ED994E1224C6EA63004376A7 /* KakaoInternShip_Winter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoInternShip_Winter.swift; sourceTree = "<group>"; };
 		ED994E1424C6EA8E004376A7 /* Kakao_2019_Winter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Kakao_2019_Winter.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		ED994E1524C7DA59004376A7 /* OpenChat.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = OpenChat.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		ED994E1624C7E80A004376A7 /* openChat_other.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = openChat_other.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		ED994E1724C7EB4A004376A7 /* failureRate.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = failureRate.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		EDEEF19C24A1D681000C2438 /* Algorithm_Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm_Swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDEEF19F24A1D681000C2438 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EDEEF1AB24A33115000C2438 /* Blackjack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blackjack.swift; sourceTree = "<group>"; };
@@ -125,8 +126,10 @@
 		ED994E1124C6EA22004376A7 /* CodingTest */ = {
 			isa = PBXGroup;
 			children = (
-				ED994E1224C6EA63004376A7 /* KakaoInternShip_Winter.swift */,
 				ED994E1424C6EA8E004376A7 /* Kakao_2019_Winter.playground */,
+				ED994E1524C7DA59004376A7 /* OpenChat.playground */,
+				ED994E1624C7E80A004376A7 /* openChat_other.playground */,
+				ED994E1724C7EB4A004376A7 /* failureRate.playground */,
 			);
 			path = CodingTest;
 			sourceTree = "<group>";
@@ -285,7 +288,6 @@
 				EDEEF1B324B32007000C2438 /* HighestNumber.swift in Sources */,
 				EDEEF1B624B597F6000C2438 /* BestNumber.swift in Sources */,
 				EDEEF1A024A1D681000C2438 /* main.swift in Sources */,
-				ED994E1324C6EA63004376A7 /* KakaoInternShip_Winter.swift in Sources */,
 				ED994DDF24C18B4C004376A7 /* fibonacci_func.swift in Sources */,
 				EDEEF1BC24B5BB55000C2438 /* stack1.swift in Sources */,
 				EDEEF1BE24B7041E000C2438 /* stack2.swift in Sources */,

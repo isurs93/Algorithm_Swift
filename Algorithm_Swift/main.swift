@@ -35,13 +35,13 @@ import Foundation
 //
 //print(hIndex.solution([0, 1]))
 
-let mock = mock_test()
-print(mock.solution([1, 2, 3, 4, 5]))
-print(mock.solution([1, 3, 2, 4, 2]))
-
-let mock_other = mock_test_other()
-print(mock_other.solution([1, 2, 3, 4, 5]))
-print(mock_other.solution([1, 3, 2, 4, 2]))
+//let mock = mock_test()
+//print(mock.solution([1, 2, 3, 4, 5]))
+//print(mock.solution([1, 3, 2, 4, 2]))
+//
+//let mock_other = mock_test_other()
+//print(mock_other.solution([1, 2, 3, 4, 5]))
+//print(mock_other.solution([1, 3, 2, 4, 2]))
 
 //for index in 0..<5 {
 //    print(index%5)
@@ -54,3 +54,6 @@ print(mock_other.solution([1, 3, 2, 4, 2]))
 //for index in 0..<11 {
 //    print(index%11)
 //}
+
+let prime = primeNumber()
+prime.solution("17")
