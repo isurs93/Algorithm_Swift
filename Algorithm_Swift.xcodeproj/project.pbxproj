@@ -42,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		ED11A116256532EF00B0C9F3 /* fractionalNumbers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = fractionalNumbers.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		ED11A11825653C1900B0C9F3 /* 두개_뽑아서_더하기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "두개_뽑아서_더하기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		ED92BA5724BEEFE300899A60 /* disguise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = disguise.swift; sourceTree = "<group>"; };
 		ED994DD524C03BAB004376A7 /* moveToFront.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moveToFront.swift; sourceTree = "<group>"; };
 		ED994DD824C17263004376A7 /* fibonacci_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fibonacci_2.swift; sourceTree = "<group>"; };
@@ -207,6 +208,7 @@
 				ED92BA5624BEEFB900899A60 /* Hash */,
 				EDEEF1BA24B5BB41000C2438 /* stack_queue */,
 				EDEEF1B424B3200B000C2438 /* Sort */,
+				ED11A11825653C1900B0C9F3 /* 두개_뽑아서_더하기.playground */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
