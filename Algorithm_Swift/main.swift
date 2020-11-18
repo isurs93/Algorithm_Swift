@@ -56,4 +56,4 @@ import Foundation
 //}
 
 let prime = primeNumber()
-prime.solution("17")
+print(prime.solution("17"))

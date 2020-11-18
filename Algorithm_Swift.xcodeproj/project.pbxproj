@@ -23,8 +23,8 @@
 		EDEEF1B324B32007000C2438 /* HighestNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEEF1B224B32007000C2438 /* HighestNumber.swift */; };
 		EDEEF1B624B597F6000C2438 /* BestNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEEF1B524B597F6000C2438 /* BestNumber.swift */; };
 		EDEEF1B924B5B4DA000C2438 /* numberSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEEF1B824B5B4DA000C2438 /* numberSort.swift */; };
-		EDEEF1BC24B5BB55000C2438 /* stack1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEEF1BB24B5BB55000C2438 /* stack1.swift */; };
-		EDEEF1BE24B7041E000C2438 /* stack2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEEF1BD24B7041E000C2438 /* stack2.swift */; };
+		EDEEF1BC24B5BB55000C2438 /* truck.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEEF1BB24B5BB55000C2438 /* truck.swift */; };
+		EDEEF1BE24B7041E000C2438 /* truck_otherWay.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEEF1BD24B7041E000C2438 /* truck_otherWay.swift */; };
 		EDEEF1C424BACC80000C2438 /* H_Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEEF1C324BACC80000C2438 /* H_Index.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +41,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		ED11A116256532EF00B0C9F3 /* fractionalNumbers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = fractionalNumbers.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		ED92BA5724BEEFE300899A60 /* disguise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = disguise.swift; sourceTree = "<group>"; };
 		ED994DD524C03BAB004376A7 /* moveToFront.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moveToFront.swift; sourceTree = "<group>"; };
 		ED994DD824C17263004376A7 /* fibonacci_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fibonacci_2.swift; sourceTree = "<group>"; };
@@ -56,6 +57,8 @@
 		ED994E1724C7EB4A004376A7 /* failureRate.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = failureRate.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		EDC567A824D3E2DC00BF3899 /* failureRate_other1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = failureRate_other1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		EDC567A924D4218B00BF3899 /* failureRate_other2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = failureRate_other2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		EDC567DF24D9272500BF3899 /* functionDev.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = functionDev.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		EDC567E024D9390000BF3899 /* printer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = printer.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		EDEEF19C24A1D681000C2438 /* Algorithm_Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm_Swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDEEF19F24A1D681000C2438 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EDEEF1AB24A33115000C2438 /* Blackjack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blackjack.swift; sourceTree = "<group>"; };
@@ -64,9 +67,10 @@
 		EDEEF1B224B32007000C2438 /* HighestNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighestNumber.swift; sourceTree = "<group>"; };
 		EDEEF1B524B597F6000C2438 /* BestNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestNumber.swift; sourceTree = "<group>"; };
 		EDEEF1B824B5B4DA000C2438 /* numberSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numberSort.swift; sourceTree = "<group>"; };
-		EDEEF1BB24B5BB55000C2438 /* stack1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stack1.swift; sourceTree = "<group>"; };
-		EDEEF1BD24B7041E000C2438 /* stack2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stack2.swift; sourceTree = "<group>"; };
+		EDEEF1BB24B5BB55000C2438 /* truck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = truck.swift; sourceTree = "<group>"; };
+		EDEEF1BD24B7041E000C2438 /* truck_otherWay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = truck_otherWay.swift; sourceTree = "<group>"; };
 		EDEEF1C324BACC80000C2438 /* H_Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H_Index.swift; sourceTree = "<group>"; };
+		EDFB381D2534A1E300BFD3AE /* Hash_Camouflage.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Hash_Camouflage.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,10 +84,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED11A115256532B700B0C9F3 /* math */ = {
+			isa = PBXGroup;
+			children = (
+				ED11A116256532EF00B0C9F3 /* fractionalNumbers.playground */,
+			);
+			path = math;
+			sourceTree = "<group>";
+		};
 		ED92BA5624BEEFB900899A60 /* Hash */ = {
 			isa = PBXGroup;
 			children = (
 				ED92BA5724BEEFE300899A60 /* disguise.swift */,
+				EDFB381D2534A1E300BFD3AE /* Hash_Camouflage.playground */,
 			);
 			path = Hash;
 			sourceTree = "<group>";
@@ -169,6 +182,7 @@
 		EDEEF1A924A3308F000C2438 /* Backjoon */ = {
 			isa = PBXGroup;
 			children = (
+				ED11A115256532B700B0C9F3 /* math */,
 				ED994DD724C17230004376A7 /* Dydamic */,
 				EDEEF1B724B5B4C5000C2438 /* Sort */,
 				EDEEF1AA24A330A2000C2438 /* BruteForce */,
@@ -218,8 +232,10 @@
 		EDEEF1BA24B5BB41000C2438 /* stack_queue */ = {
 			isa = PBXGroup;
 			children = (
-				EDEEF1BB24B5BB55000C2438 /* stack1.swift */,
-				EDEEF1BD24B7041E000C2438 /* stack2.swift */,
+				EDEEF1BB24B5BB55000C2438 /* truck.swift */,
+				EDEEF1BD24B7041E000C2438 /* truck_otherWay.swift */,
+				EDC567DF24D9272500BF3899 /* functionDev.playground */,
+				EDC567E024D9390000BF3899 /* printer.playground */,
 			);
 			path = stack_queue;
 			sourceTree = "<group>";
@@ -293,8 +309,8 @@
 				EDEEF1B624B597F6000C2438 /* BestNumber.swift in Sources */,
 				EDEEF1A024A1D681000C2438 /* main.swift in Sources */,
 				ED994DDF24C18B4C004376A7 /* fibonacci_func.swift in Sources */,
-				EDEEF1BC24B5BB55000C2438 /* stack1.swift in Sources */,
-				EDEEF1BE24B7041E000C2438 /* stack2.swift in Sources */,
+				EDEEF1BC24B5BB55000C2438 /* truck.swift in Sources */,
+				EDEEF1BE24B7041E000C2438 /* truck_otherWay.swift in Sources */,
 				EDEEF1B924B5B4DA000C2438 /* numberSort.swift in Sources */,
 				ED994DD924C17263004376A7 /* fibonacci_2.swift in Sources */,
 				ED994DE324C593B9004376A7 /* mock_test.swift in Sources */,
